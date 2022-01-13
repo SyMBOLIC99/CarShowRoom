@@ -18,6 +18,12 @@
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.0.0" />
     <PackageReference Include="Serilog.AspNetCore" Version="4.1.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="System.IO.Ports" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CarShowRoom.BL\CarShowRoom.BL.csproj" />
+    <ProjectReference Include="..\CarShowRoom.DL\CarShowRoom.DL.csproj" />
   </ItemGroup>
 
 </Project>

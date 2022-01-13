@@ -1,0 +1,15 @@
+C:\Users\skidr\Desktop\visualstudio code\PROJECT\Kursova Rabota\CarShowRoom\CarShowRoom.DL\bin\Debug\net5.0\CarShowRoom.DL.deps.json
+C:\Users\skidr\Desktop\visualstudio code\PROJECT\Kursova Rabota\CarShowRoom\CarShowRoom.DL\bin\Debug\net5.0\CarShowRoom.DL.dll
+C:\Users\skidr\Desktop\visualstudio code\PROJECT\Kursova Rabota\CarShowRoom\CarShowRoom.DL\bin\Debug\net5.0\ref\CarShowRoom.DL.dll
+C:\Users\skidr\Desktop\visualstudio code\PROJECT\Kursova Rabota\CarShowRoom\CarShowRoom.DL\bin\Debug\net5.0\CarShowRoom.DL.pdb
+C:\Users\skidr\Desktop\visualstudio code\PROJECT\Kursova Rabota\CarShowRoom\CarShowRoom.DL\bin\Debug\net5.0\CarShowRoom.Models.dll
+C:\Users\skidr\Desktop\visualstudio code\PROJECT\Kursova Rabota\CarShowRoom\CarShowRoom.DL\bin\Debug\net5.0\CarShowRoom.Models.pdb
+C:\Users\skidr\Desktop\visualstudio code\PROJECT\Kursova Rabota\CarShowRoom\CarShowRoom.DL\obj\Debug\net5.0\CarShowRoom.DL.csproj.AssemblyReference.cache
+C:\Users\skidr\Desktop\visualstudio code\PROJECT\Kursova Rabota\CarShowRoom\CarShowRoom.DL\obj\Debug\net5.0\CarShowRoom.DL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\skidr\Desktop\visualstudio code\PROJECT\Kursova Rabota\CarShowRoom\CarShowRoom.DL\obj\Debug\net5.0\CarShowRoom.DL.AssemblyInfoInputs.cache
+C:\Users\skidr\Desktop\visualstudio code\PROJECT\Kursova Rabota\CarShowRoom\CarShowRoom.DL\obj\Debug\net5.0\CarShowRoom.DL.AssemblyInfo.cs
+C:\Users\skidr\Desktop\visualstudio code\PROJECT\Kursova Rabota\CarShowRoom\CarShowRoom.DL\obj\Debug\net5.0\CarShowRoom.DL.csproj.CoreCompileInputs.cache
+C:\Users\skidr\Desktop\visualstudio code\PROJECT\Kursova Rabota\CarShowRoom\CarShowRoom.DL\obj\Debug\net5.0\CarShowRoom.DL.csproj.CopyComplete
+C:\Users\skidr\Desktop\visualstudio code\PROJECT\Kursova Rabota\CarShowRoom\CarShowRoom.DL\obj\Debug\net5.0\CarShowRoom.DL.dll
+C:\Users\skidr\Desktop\visualstudio code\PROJECT\Kursova Rabota\CarShowRoom\CarShowRoom.DL\obj\Debug\net5.0\ref\CarShowRoom.DL.dll
+C:\Users\skidr\Desktop\visualstudio code\PROJECT\Kursova Rabota\CarShowRoom\CarShowRoom.DL\obj\Debug\net5.0\CarShowRoom.DL.pdb

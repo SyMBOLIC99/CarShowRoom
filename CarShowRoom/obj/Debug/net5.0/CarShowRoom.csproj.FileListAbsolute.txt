@@ -142,3 +142,17 @@ C:\Users\skidr\Desktop\visualstudio code\PROJECT\Kursova Rabota\CarShowRoom\CarS
 C:\Users\skidr\Desktop\visualstudio code\PROJECT\Kursova Rabota\CarShowRoom\CarShowRoom\bin\Debug\net5.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 C:\Users\skidr\Desktop\visualstudio code\PROJECT\Kursova Rabota\CarShowRoom\CarShowRoom\bin\Debug\net5.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
 C:\Users\skidr\Desktop\visualstudio code\PROJECT\Kursova Rabota\CarShowRoom\CarShowRoom\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\skidr\Desktop\visualstudio code\PROJECT\Kursova Rabota\CarShowRoom\CarShowRoom\bin\Debug\net5.0\System.IO.Ports.dll
+C:\Users\skidr\Desktop\visualstudio code\PROJECT\Kursova Rabota\CarShowRoom\CarShowRoom\bin\Debug\net5.0\runtimes\linux-arm\native\libSystem.IO.Ports.Native.so
+C:\Users\skidr\Desktop\visualstudio code\PROJECT\Kursova Rabota\CarShowRoom\CarShowRoom\bin\Debug\net5.0\runtimes\linux-arm64\native\libSystem.IO.Ports.Native.so
+C:\Users\skidr\Desktop\visualstudio code\PROJECT\Kursova Rabota\CarShowRoom\CarShowRoom\bin\Debug\net5.0\runtimes\linux-x64\native\libSystem.IO.Ports.Native.so
+C:\Users\skidr\Desktop\visualstudio code\PROJECT\Kursova Rabota\CarShowRoom\CarShowRoom\bin\Debug\net5.0\runtimes\osx-arm64\native\libSystem.IO.Ports.Native.dylib
+C:\Users\skidr\Desktop\visualstudio code\PROJECT\Kursova Rabota\CarShowRoom\CarShowRoom\bin\Debug\net5.0\runtimes\osx-x64\native\libSystem.IO.Ports.Native.dylib
+C:\Users\skidr\Desktop\visualstudio code\PROJECT\Kursova Rabota\CarShowRoom\CarShowRoom\bin\Debug\net5.0\runtimes\unix\lib\netstandard2.0\System.IO.Ports.dll
+C:\Users\skidr\Desktop\visualstudio code\PROJECT\Kursova Rabota\CarShowRoom\CarShowRoom\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.IO.Ports.dll
+C:\Users\skidr\Desktop\visualstudio code\PROJECT\Kursova Rabota\CarShowRoom\CarShowRoom\bin\Debug\net5.0\CarShowRoom.DL.dll
+C:\Users\skidr\Desktop\visualstudio code\PROJECT\Kursova Rabota\CarShowRoom\CarShowRoom\bin\Debug\net5.0\CarShowRoom.Models.dll
+C:\Users\skidr\Desktop\visualstudio code\PROJECT\Kursova Rabota\CarShowRoom\CarShowRoom\bin\Debug\net5.0\CarShowRoom.DL.pdb
+C:\Users\skidr\Desktop\visualstudio code\PROJECT\Kursova Rabota\CarShowRoom\CarShowRoom\bin\Debug\net5.0\CarShowRoom.Models.pdb
+C:\Users\skidr\Desktop\visualstudio code\PROJECT\Kursova Rabota\CarShowRoom\CarShowRoom\bin\Debug\net5.0\CarShowRoom.BL.dll
+C:\Users\skidr\Desktop\visualstudio code\PROJECT\Kursova Rabota\CarShowRoom\CarShowRoom\bin\Debug\net5.0\CarShowRoom.BL.pdb
