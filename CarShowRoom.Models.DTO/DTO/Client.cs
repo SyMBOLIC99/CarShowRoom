@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CarShowRoom.Models.DTO.Models
 {
-   public class Buyer
+   public class Client
     {
         public int Id { get; set; }
         public string Name  { get; set; }

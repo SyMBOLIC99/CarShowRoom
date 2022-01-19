@@ -34,6 +34,11 @@ namespace CarShowRoom.DL.Repositories.InMemoryRepos
                 var result = CarInMemoryCollection.CarDB.FirstOrDefault(x => x.Id == car.Id);
 
                 result.Brand = car.Brand;
+                result.Model = car.Model;
+                result.Year = car.Year;
+                result.Type = car.Type;
+                result.FuelType = car.FuelType;
+                result.Price = car.Price;
 
                 return result;
             }

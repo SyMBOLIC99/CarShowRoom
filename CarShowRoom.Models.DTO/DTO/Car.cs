@@ -1,5 +1,4 @@
-﻿using CarShowRoom.Models.DTO.Enums;
-using System;
+﻿using CarShowRoom.Models.Enums;
 
 namespace CarShowRoom.Models.DTO
 {
@@ -12,8 +11,5 @@ namespace CarShowRoom.Models.DTO
         public CarType Type { get; set; }
         public CarFuelType FuelType { get; set; }
         public int Price { get; set; }
-
-
-
     }
 }
