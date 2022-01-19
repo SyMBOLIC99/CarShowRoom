@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CarShowRoom.Models.DTO.Enums
+namespace CarShowRoom.Models.Enums
 {
     public enum CarFuelType
     {
@@ -13,5 +13,4 @@ namespace CarShowRoom.Models.DTO.Enums
         Hybrid = 2,
         Electric = 3,
     }
-
 }

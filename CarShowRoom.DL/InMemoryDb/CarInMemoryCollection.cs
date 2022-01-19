@@ -1,5 +1,6 @@
 ﻿using CarShowRoom.Models.DTO;
 using System.Collections.Generic;
+using CarShowRoom.Models.Enums;
 
 namespace CarShowRoom.DL.InMemoryDb
 {
@@ -12,10 +13,10 @@ namespace CarShowRoom.DL.InMemoryDb
             {
                 Id = 1,
                 Brand = "BMW",
-                Model = "Fifth series",
+                Model = "5 series",
                 Year = 2008,
-                FuelType = Models.DTO.Enums.CarFuelType.Diesel,
-                Type = Models.DTO.Enums.CarType.Sedan,
+                FuelType = CarFuelType.Diesel,
+                Type = Models.Enums.CarType.Sedan,
                 Price = 15000
             },
             new Car(){
@@ -23,8 +24,8 @@ namespace CarShowRoom.DL.InMemoryDb
                 Brand = "Mercedes - Benz",
                 Model = "E class",
                 Year = 2010,
-                FuelType = Models.DTO.Enums.CarFuelType.Gasoline,
-                Type = Models.DTO.Enums.CarType.Coupe,
+                FuelType = Models.Enums.CarFuelType.Gasoline,
+                Type = Models.Enums.CarType.Coupe,
                 Price = 22000
             },
             new Car()
@@ -33,8 +34,8 @@ namespace CarShowRoom.DL.InMemoryDb
                 Brand = "Toyota",
                 Model = "Prius",
                 Year = 2018,
-                FuelType = Models.DTO.Enums.CarFuelType.Hybrid,
-                Type = Models.DTO.Enums.CarType.Hatchback,
+                FuelType = Models.Enums.CarFuelType.Hybrid,
+                Type = Models.Enums.CarType.Hatchback,
                 Price = 30000
         }
 

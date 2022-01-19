@@ -5,23 +5,23 @@ using System.Collections.Generic;
 
 namespace CarShowRoom.DL.InMemoryDb
 {
-    public class BuyerInMemoryCollection
+    public class ClientInMemoryCollection
     {
-        public static List<Buyer> BuyerDB = new List<Buyer>()
+        public static List<Client> ClientDB = new List<Client>()
         {
-            new Buyer()
+            new Client()
             {
                 Id = 1,
                 Name = "Ivan",
                 Balance = 20000
             },
-            new Buyer()
+            new Client()
             {
                 Id = 2,
                 Name = "Stoyan",
                 Balance = 30000
             },
-            new Buyer()
+            new Client()
             {
                 Id = 3,
                 Name = "Momchil",

@@ -2,12 +2,14 @@ using CarShowRoom.BL.Interfaces;
 using CarShowRoom.BL.Services;
 using CarShowRoom.DL.Interfaces;
 using CarShowRoom.DL.Repositories.InMemoryRepos;
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using Serilog;
 
 namespace CarShowRoom
 {
@@ -23,8 +25,14 @@ namespace CarShowRoom
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSingleton(Log.Logger);
+            services.AddAutoMapper(typeof(Startup));
+
+
             services.AddSingleton<ICarRepository, CarInMemoryRepository>();
             services.AddSingleton<ICarService, CarService>();
+
+            services.AddControllers().AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<Startup>());
           
             services.AddControllers();
             services.AddSwaggerGen(c =>

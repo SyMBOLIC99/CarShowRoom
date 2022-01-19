@@ -1,13 +1,9 @@
 ﻿using AutoMapper;
 using CarShowRoom.BL.Interfaces;
-using CarShowRoom.BL.Services;
-using CarShowRoom.DL.Interfaces;
 using CarShowRoom.Models.DTO;
+using CarShowRoom.Models.Requests;
+using CarShowRoom.Models.Responses;
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace CarShowRoom.Controllers
 {
@@ -16,11 +12,13 @@ namespace CarShowRoom.Controllers
     public class CarController : ControllerBase
     {
         private readonly ICarService _carService;
-        
-           public CarController(ICarService carService)
+        private readonly IMapper _mapper;
+
+        public CarController(ICarService carService, IMapper mapper)
         {
             
             _carService = carService;
+            _mapper = mapper;
         }
 
        
@@ -28,6 +26,7 @@ namespace CarShowRoom.Controllers
         public IActionResult GetAll()
         {
             var result = _carService.GetAll();
+
 
             return Ok(result);
         }
@@ -41,17 +40,20 @@ namespace CarShowRoom.Controllers
 
             if (result == null) return NotFound(id);
 
-            return Ok(result);
+            var response = _mapper.Map<CarResponse>(result);
+
+            return Ok(response);
         }
 
         [HttpPost("Create")]
-        public IActionResult CreateEmployee([FromBody] Car car)
+        public IActionResult CreateEmployee([FromBody] CarRequest carRequest)
         {
-            if (car == null) return BadRequest();
+            if (carRequest == null) return BadRequest();
 
+            var car = _mapper.Map<Car>(carRequest);
             var result = _carService.Create(car);
 
-            return Ok(car);
+            return Ok(result);
         }
 
         [HttpDelete]
@@ -67,15 +69,22 @@ namespace CarShowRoom.Controllers
         }
 
         [HttpPost("Update")]
-        public IActionResult Update([FromBody] Car car)
+        public IActionResult Update([FromBody] CarUpdateRequest  carRequest)
         {
-            if (car == null) return BadRequest();
+            if (carRequest == null) return BadRequest();
 
-            var searchTag = _carService.GetById(car.Id);
+            var searchCar = _carService.GetById(carRequest.Id);
 
-            if (searchTag == null) return NotFound(car.Id);
+            if (searchCar == null) return NotFound(carRequest.Id);
 
-            var result = _carService.Update(car);
+            searchCar.Brand = carRequest.Brand;
+            searchCar.Brand = carRequest.Brand;
+            searchCar.Model = carRequest.Model;
+            searchCar.Year = carRequest.Year;
+            searchCar.Type = carRequest.Type;
+            searchCar.FuelType = carRequest.FuelType;
+            searchCar.Price = carRequest.Price;
+            var result = _carService.Update(searchCar);
 
             return Ok(result);
         }
