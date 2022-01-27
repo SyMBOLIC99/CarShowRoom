@@ -43,6 +43,7 @@ namespace CarShowRoom.DL.Repositories.InMemoryRepos
 
                 result.Name = client.Name;
                 result.Balance = client.Balance;
+                result.RecommendedCar = client.RecommendedCar;
 
                 return result;
 

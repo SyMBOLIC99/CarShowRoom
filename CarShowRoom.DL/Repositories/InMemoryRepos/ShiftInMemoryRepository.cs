@@ -36,7 +36,8 @@ namespace CarShowRoom.DL.Repositories.InMemoryRepos
             {
                 var result = ShiftInMemoryCollection.ShiftDB.FirstOrDefault(x => x.Id == shift.Id);
 
-                result.Name = shift.Name;
+                result.Id = shift.Id;
+                result.DaysOfWeek = shift.DaysOfWeek;
                 result.Employees = shift.Employees;
 
                 return result;

@@ -31,6 +31,12 @@ namespace CarShowRoom
 
             services.AddSingleton<ICarRepository, CarInMemoryRepository>();
             services.AddSingleton<ICarService, CarService>();
+            services.AddSingleton<IShiftRepository, ShiftInMemoryRepository>();
+            services.AddSingleton<IShiftService, ShiftService>();
+            services.AddSingleton<IEmployeeRepository, EmployeeInMemoryRepository>();
+            services.AddSingleton<IEmployeeService, EmployeeService>();
+            services.AddSingleton<IClientRepository, ClientInMemoryRepository>();
+            services.AddSingleton <IClientService, ClientService>();
 
             services.AddControllers().AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<Startup>());
           
