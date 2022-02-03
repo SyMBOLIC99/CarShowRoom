@@ -1,0 +1,401 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\skidr\\Desktop\\visualstudio code\\PROJECT\\Kursova Rabota\\CarShowRoom\\CarShowRoom.Test\\CarShowRoom.Test.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\skidr\\Desktop\\visualstudio code\\PROJECT\\Kursova Rabota\\CarShowRoom\\CarShowRoom.BL\\CarShowRoom.BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\skidr\\Desktop\\visualstudio code\\PROJECT\\Kursova Rabota\\CarShowRoom\\CarShowRoom.BL\\CarShowRoom.BL.csproj",
+        "projectName": "CarShowRoom.BL",
+        "projectPath": "C:\\Users\\skidr\\Desktop\\visualstudio code\\PROJECT\\Kursova Rabota\\CarShowRoom\\CarShowRoom.BL\\CarShowRoom.BL.csproj",
+        "packagesPath": "C:\\Users\\skidr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\skidr\\Desktop\\visualstudio code\\PROJECT\\Kursova Rabota\\CarShowRoom\\CarShowRoom.BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\skidr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\skidr\\Desktop\\visualstudio code\\PROJECT\\Kursova Rabota\\CarShowRoom\\CarShowRoom.DL\\CarShowRoom.DL.csproj": {
+                "projectPath": "C:\\Users\\skidr\\Desktop\\visualstudio code\\PROJECT\\Kursova Rabota\\CarShowRoom\\CarShowRoom.DL\\CarShowRoom.DL.csproj"
+              },
+              "C:\\Users\\skidr\\Desktop\\visualstudio code\\PROJECT\\Kursova Rabota\\CarShowRoom\\CarShowRoom.Models.DTO\\CarShowRoom.Models.csproj": {
+                "projectPath": "C:\\Users\\skidr\\Desktop\\visualstudio code\\PROJECT\\Kursova Rabota\\CarShowRoom\\CarShowRoom.Models.DTO\\CarShowRoom.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\skidr\\Desktop\\visualstudio code\\PROJECT\\Kursova Rabota\\CarShowRoom\\CarShowRoom.DL\\CarShowRoom.DL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\skidr\\Desktop\\visualstudio code\\PROJECT\\Kursova Rabota\\CarShowRoom\\CarShowRoom.DL\\CarShowRoom.DL.csproj",
+        "projectName": "CarShowRoom.DL",
+        "projectPath": "C:\\Users\\skidr\\Desktop\\visualstudio code\\PROJECT\\Kursova Rabota\\CarShowRoom\\CarShowRoom.DL\\CarShowRoom.DL.csproj",
+        "packagesPath": "C:\\Users\\skidr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\skidr\\Desktop\\visualstudio code\\PROJECT\\Kursova Rabota\\CarShowRoom\\CarShowRoom.DL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\skidr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\skidr\\Desktop\\visualstudio code\\PROJECT\\Kursova Rabota\\CarShowRoom\\CarShowRoom.Models.DTO\\CarShowRoom.Models.csproj": {
+                "projectPath": "C:\\Users\\skidr\\Desktop\\visualstudio code\\PROJECT\\Kursova Rabota\\CarShowRoom\\CarShowRoom.Models.DTO\\CarShowRoom.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "System.IO.Ports": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\skidr\\Desktop\\visualstudio code\\PROJECT\\Kursova Rabota\\CarShowRoom\\CarShowRoom.Models.DTO\\CarShowRoom.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\skidr\\Desktop\\visualstudio code\\PROJECT\\Kursova Rabota\\CarShowRoom\\CarShowRoom.Models.DTO\\CarShowRoom.Models.csproj",
+        "projectName": "CarShowRoom.Models",
+        "projectPath": "C:\\Users\\skidr\\Desktop\\visualstudio code\\PROJECT\\Kursova Rabota\\CarShowRoom\\CarShowRoom.Models.DTO\\CarShowRoom.Models.csproj",
+        "packagesPath": "C:\\Users\\skidr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\skidr\\Desktop\\visualstudio code\\PROJECT\\Kursova Rabota\\CarShowRoom\\CarShowRoom.Models.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\skidr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "System.IO.Ports": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\skidr\\Desktop\\visualstudio code\\PROJECT\\Kursova Rabota\\CarShowRoom\\CarShowRoom.Test\\CarShowRoom.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\skidr\\Desktop\\visualstudio code\\PROJECT\\Kursova Rabota\\CarShowRoom\\CarShowRoom.Test\\CarShowRoom.Test.csproj",
+        "projectName": "CarShowRoom.Test",
+        "projectPath": "C:\\Users\\skidr\\Desktop\\visualstudio code\\PROJECT\\Kursova Rabota\\CarShowRoom\\CarShowRoom.Test\\CarShowRoom.Test.csproj",
+        "packagesPath": "C:\\Users\\skidr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\skidr\\Desktop\\visualstudio code\\PROJECT\\Kursova Rabota\\CarShowRoom\\CarShowRoom.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\skidr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\skidr\\Desktop\\visualstudio code\\PROJECT\\Kursova Rabota\\CarShowRoom\\CarShowRoom.BL\\CarShowRoom.BL.csproj": {
+                "projectPath": "C:\\Users\\skidr\\Desktop\\visualstudio code\\PROJECT\\Kursova Rabota\\CarShowRoom\\CarShowRoom.BL\\CarShowRoom.BL.csproj"
+              },
+              "C:\\Users\\skidr\\Desktop\\visualstudio code\\PROJECT\\Kursova Rabota\\CarShowRoom\\CarShowRoom.DL\\CarShowRoom.DL.csproj": {
+                "projectPath": "C:\\Users\\skidr\\Desktop\\visualstudio code\\PROJECT\\Kursova Rabota\\CarShowRoom\\CarShowRoom.DL\\CarShowRoom.DL.csproj"
+              },
+              "C:\\Users\\skidr\\Desktop\\visualstudio code\\PROJECT\\Kursova Rabota\\CarShowRoom\\CarShowRoom\\CarShowRoom.csproj": {
+                "projectPath": "C:\\Users\\skidr\\Desktop\\visualstudio code\\PROJECT\\Kursova Rabota\\CarShowRoom\\CarShowRoom\\CarShowRoom.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.TestHost": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.0.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\skidr\\Desktop\\visualstudio code\\PROJECT\\Kursova Rabota\\CarShowRoom\\CarShowRoom\\CarShowRoom.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\skidr\\Desktop\\visualstudio code\\PROJECT\\Kursova Rabota\\CarShowRoom\\CarShowRoom\\CarShowRoom.csproj",
+        "projectName": "CarShowRoom",
+        "projectPath": "C:\\Users\\skidr\\Desktop\\visualstudio code\\PROJECT\\Kursova Rabota\\CarShowRoom\\CarShowRoom\\CarShowRoom.csproj",
+        "packagesPath": "C:\\Users\\skidr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\skidr\\Desktop\\visualstudio code\\PROJECT\\Kursova Rabota\\CarShowRoom\\CarShowRoom\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\skidr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\skidr\\Desktop\\visualstudio code\\PROJECT\\Kursova Rabota\\CarShowRoom\\CarShowRoom.BL\\CarShowRoom.BL.csproj": {
+                "projectPath": "C:\\Users\\skidr\\Desktop\\visualstudio code\\PROJECT\\Kursova Rabota\\CarShowRoom\\CarShowRoom.BL\\CarShowRoom.BL.csproj"
+              },
+              "C:\\Users\\skidr\\Desktop\\visualstudio code\\PROJECT\\Kursova Rabota\\CarShowRoom\\CarShowRoom.DL\\CarShowRoom.DL.csproj": {
+                "projectPath": "C:\\Users\\skidr\\Desktop\\visualstudio code\\PROJECT\\Kursova Rabota\\CarShowRoom\\CarShowRoom.DL\\CarShowRoom.DL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[10.3.5, )"
+            },
+            "Microsoft.AspNetCore.TestHost": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.0.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "System.IO.Ports": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

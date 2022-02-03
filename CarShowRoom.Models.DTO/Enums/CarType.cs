@@ -14,5 +14,6 @@ namespace CarShowRoom.Models.Enums
         Hatchback = 3,
         Suv = 4,
         Jeep = 5,
+        Muscle = 6,
     }
 }
