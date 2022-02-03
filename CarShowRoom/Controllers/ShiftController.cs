@@ -50,7 +50,7 @@ namespace CarShowRoom.Controllers
         }
 
         [HttpPost("Create")]
-        public IActionResult CreateEmployee([FromBody] ShiftRequest shiftRequest)
+        public IActionResult CreateShift([FromBody] ShiftRequest shiftRequest)
         {
             if (shiftRequest == null) return BadRequest();
 
@@ -82,6 +82,7 @@ namespace CarShowRoom.Controllers
             if (searchShift == null) return NotFound(shiftRequest.Id);
 
             searchShift.Id = shiftRequest.Id;
+            searchShift.Name = shiftRequest.Name;
             searchShift.DaysOfWeek = shiftRequest.DaysOfWeek;
             searchShift.Employees = shiftRequest.Employees;
             var result = _shiftService.Update(searchShift);

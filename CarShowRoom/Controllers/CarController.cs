@@ -46,7 +46,7 @@ namespace CarShowRoom.Controllers
         }
 
         [HttpPost("Create")]
-        public IActionResult CreateEmployee([FromBody] CarRequest carRequest)
+        public IActionResult CreateCar([FromBody] CarRequest carRequest)
         {
             if (carRequest == null) return BadRequest();
 

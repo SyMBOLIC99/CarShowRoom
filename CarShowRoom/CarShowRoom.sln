@@ -11,12 +11,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarShowRoom", "CarShowRoom.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarShowRoom.Models", "..\CarShowRoom.Models.DTO\CarShowRoom.Models.csproj", "{DBB0A1CA-0678-42BE-AB29-3FE661ECE217}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarShowRoom.DL", "..\CarShowRoom.DL\CarShowRoom.DL.csproj", "{AA3EA64F-041D-42EE-9906-545628849D58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarShowRoom.DL", "..\CarShowRoom.DL\CarShowRoom.DL.csproj", "{AA3EA64F-041D-42EE-9906-545628849D58}"
 	ProjectSection(ProjectDependencies) = postProject
 		{DBB0A1CA-0678-42BE-AB29-3FE661ECE217} = {DBB0A1CA-0678-42BE-AB29-3FE661ECE217}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarShowRoom.BL", "..\CarShowRoom.BL\CarShowRoom.BL.csproj", "{DC3D82D6-6C35-4813-8BA6-F636EC73EE89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarShowRoom.BL", "..\CarShowRoom.BL\CarShowRoom.BL.csproj", "{DC3D82D6-6C35-4813-8BA6-F636EC73EE89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarShowRoom.Test", "..\CarShowRoom.Test\CarShowRoom.Test.csproj", "{149FE795-4915-417F-9990-40A20F341E10}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -40,6 +42,10 @@ Global
 		{DC3D82D6-6C35-4813-8BA6-F636EC73EE89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC3D82D6-6C35-4813-8BA6-F636EC73EE89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC3D82D6-6C35-4813-8BA6-F636EC73EE89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{149FE795-4915-417F-9990-40A20F341E10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{149FE795-4915-417F-9990-40A20F341E10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{149FE795-4915-417F-9990-40A20F341E10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{149FE795-4915-417F-9990-40A20F341E10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

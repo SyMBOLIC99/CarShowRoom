@@ -11,6 +11,7 @@ namespace CarShowRoom.Models.Requests
     public  class ShiftUpdateRequest
     {
         public int Id { get; set; }
+        public string Name { get; set; }
         public DaysOfWeek DaysOfWeek { get; set; }
         public List<Employee> Employees { get; set; }
     }

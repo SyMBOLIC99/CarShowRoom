@@ -17,6 +17,7 @@ namespace CarShowRoom.DL.InMemoryDb
             new Shift()
         {
             Id =1,
+            Name = "Nikolai",
             DaysOfWeek = Models.Enums.DaysOfWeek.Saturday,
             Employees = new List<Employee>
             {
@@ -31,6 +32,7 @@ namespace CarShowRoom.DL.InMemoryDb
             new Shift()
             {
                 Id =2,
+                Name = "Dragan",
                 DaysOfWeek = DaysOfWeek.Monday_To_Wednesday,
                 Employees = new List<Employee>{
 
@@ -44,6 +46,7 @@ namespace CarShowRoom.DL.InMemoryDb
             new Shift()
             {
                 Id =3,
+                Name = "Anton",
                 DaysOfWeek = DaysOfWeek.Thursday_To_Friday,
                 Employees = new List<Employee>{
                 new Employee(){
