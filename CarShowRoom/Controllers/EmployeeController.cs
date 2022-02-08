@@ -4,10 +4,6 @@ using CarShowRoom.Models.DTO;
 using CarShowRoom.Models.Requests;
 using CarShowRoom.Models.Responses;
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace CarShowRoom.Controllers
 {

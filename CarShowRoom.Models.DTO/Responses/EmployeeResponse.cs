@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CarShowRoom.Models.Responses
+﻿namespace CarShowRoom.Models.Responses
 {
-   public  class EmployeeResponse
+    public  class EmployeeResponse
     {
         public int Id { get; set; }
         public string Name { get; set; }
