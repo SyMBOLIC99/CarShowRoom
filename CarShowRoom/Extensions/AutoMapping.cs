@@ -3,10 +3,6 @@ using CarShowRoom.Models.DTO;
 using CarShowRoom.Models.DTO.Models;
 using CarShowRoom.Models.Requests;
 using CarShowRoom.Models.Responses;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace CarShowRoom.Extensions
 {

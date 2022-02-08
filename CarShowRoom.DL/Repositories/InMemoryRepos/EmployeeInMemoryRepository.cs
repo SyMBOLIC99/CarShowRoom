@@ -1,15 +1,12 @@
 ﻿using CarShowRoom.DL.InMemoryDb;
 using CarShowRoom.DL.Interfaces;
 using CarShowRoom.Models.DTO;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CarShowRoom.DL.Repositories.InMemoryRepos
-{ 
-public class EmployeeInMemoryRepository : IEmployeeRepository
+{
+    public class EmployeeInMemoryRepository : IEmployeeRepository
     {
     public EmployeeInMemoryRepository()
     {
